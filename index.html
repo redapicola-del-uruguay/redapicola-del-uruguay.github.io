@@ -61,8 +61,11 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl gold-gradient flex items-center justify-center text-honey-deep font-bold text-xl shadow-lg shadow-amber-500/20">
-                        <i class="fa-solid font-black fa-brands fa-hive"></i>
+                    <div class="w-10 h-10 rounded-xl gold-gradient flex items-center justify-center text-honey-deep font-bold text-xl shadow-lg shadow-amber-500/20 p-2">
+                        <!-- Vector de Abeja SVG Directo -->
+                        <svg class="w-full h-full fill-current text-honey-deep" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6C10.89,6 10,6.89 10,8C10,8.38 10.11,8.73 10.3,9.03C9.5,9.35 8.82,9.88 8.35,10.58C7.5,10.2 6.5,10.43 5.9,11.23C5.3,12.03 5.5,13.13 6.3,13.73C6.7,14 7.2,14.1 7.7,14C7.8,14.7 8.1,15.3 8.6,15.8C8.1,16.5 8,17.5 8.5,18.2C9,18.9 10,19.2 10.8,18.8C11.2,19.3 11.8,19.6 12.5,19.6C13.2,19.6 13.8,19.3 14.2,18.8C15,19.2 16,18.9 16.5,18.2C17,17.5 16.9,16.5 16.4,15.8C16.9,15.3 17.2,14.7 17.3,14C17.8,14.1 18.3,14 18.7,13.73C19.5,13.13 19.7,12.03 19.1,11.23C18.5,10.43 17.5,10.2 16.65,10.58C16.18,9.88 15.5,9.35 14.7,9.03C14.89,8.73 15,8.38 15,8C15,6.89 14.11,6 13,6H12Z"/>
+                        </svg>
                     </div>
                     <div>
                         <span class="text-xl font-bold font-serif tracking-tight text-amber-100 block leading-none">Red Apícola</span>
@@ -108,15 +111,28 @@
                         <a href="#productos" class="gold-gradient text-honey-deep font-bold px-8 py-4 rounded-xl shadow-lg hover:brightness-110 transition-all text-center" data-i18n="hero_btn_catalog">
                             Explorar Catálogo
                         </a>
-                        <a href="#directorio" class="bg-stone-800/80 hover:bg-stone-800 border border-amber-900/50 text-amber-200 font-semibold px-8 py-4 rounded-xl transition-all text-center" data-i18n="hero_btn_producers">
+                        <a href="#contacto" class="bg-stone-800/80 hover:bg-stone-800 border border-amber-900/50 text-amber-200 font-semibold px-8 py-4 rounded-xl transition-all text-center" data-i18n="hero_btn_producers">
                             Red de Productores
                         </a>
                     </div>
                 </div>
                 <div class="relative">
                     <div class="relative mx-auto max-w-md lg:max-w-none">
-                        <div class="aspect-square rounded-3xl bg-gradient-to-tr from-amber-600/30 to-amber-400/10 p-2 border border-amber-500/20 shadow-2xl">
-                            <img src="https://images.unsplash.com/photo-1587049352847-4a222e784d38?auto=format&fit=crop&q=80&w=800" alt="Miel de Uruguay" class="w-full h-full object-cover rounded-2xl">
+                        <div class="aspect-square rounded-3xl bg-gradient-to-tr from-amber-600/30 to-amber-400/10 p-2 border border-amber-500/20 shadow-2xl overflow-hidden flex items-center justify-center">
+                            <!-- Gráfico de Miel y Abeja HD Directo -->
+                            <svg class="w-full h-full rounded-2xl bg-amber-950/80" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="500" height="500" fill="#21120B"/>
+                                <circle cx="250" cy="250" r="180" fill="#F59E0B" fill-opacity="0.1" stroke="#D97706" stroke-width="2"/>
+                                <path d="M250 100L350 157.735V273.205L250 330.94L150 273.205V157.735L250 100Z" fill="#F59E0B" fill-opacity="0.2" stroke="#FBBF24" stroke-width="4"/>
+                                <path d="M250 160L300 188.868V246.603L250 275.471L200 246.603V188.868L250 160Z" fill="#D97706" stroke="#FEF3C7" stroke-width="2"/>
+                                <!-- Abeja estilizada -->
+                                <circle cx="250" cy="217" r="28" fill="#FBBF24"/>
+                                <path d="M225 210H275M220 220H280M228 230H272" stroke="#21120B" stroke-width="5" stroke-linecap="round"/>
+                                <ellipse cx="220" cy="190" rx="18" ry="10" fill="#FEF3C7" fill-opacity="0.8" transform="rotate(-30 220 190)"/>
+                                <ellipse cx="280" cy="190" rx="18" ry="10" fill="#FEF3C7" fill-opacity="0.8" transform="rotate(30 280 190)"/>
+                                <text x="250" y="380" text-anchor="middle" fill="#FBBF24" font-family="Playfair Display, serif" font-size="24" font-weight="bold" letter-spacing="2">MIEL PURA DE URUGUAY</text>
+                                <text x="250" y="410" text-anchor="middle" fill="#F5E6CA" font-family="Plus Jakarta Sans, sans-serif" font-size="14" letter-spacing="4">TRAZABILIDAD GARANTIZADA</text>
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -135,8 +151,8 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-stone-200/80 hover:shadow-xl transition-shadow">
-                    <div class="h-48 bg-amber-100 relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?auto=format&fit=crop&q=80&w=500" class="w-full h-full object-cover" alt="Miel Pura">
+                    <div class="h-48 bg-amber-900/10 flex items-center justify-center p-6 relative overflow-hidden">
+                        <i class="fa-solid fa-jar text-7xl text-amber-600"></i>
                         <span class="absolute top-4 right-4 bg-amber-500 text-honey-deep font-bold text-xs px-3 py-1 rounded-full uppercase" data-i18n="p1_badge">100% Pura</span>
                     </div>
                     <div class="p-6">
@@ -148,8 +164,8 @@
 
                 <!-- Card 2 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-stone-200/80 hover:shadow-xl transition-shadow">
-                    <div class="h-48 bg-amber-100 relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=500" class="w-full h-full object-cover" alt="Propóleo">
+                    <div class="h-48 bg-amber-900/10 flex items-center justify-center p-6 relative overflow-hidden">
+                        <i class="fa-solid fa-vial-circle-check text-7xl text-amber-800"></i>
                         <span class="absolute top-4 right-4 bg-amber-800 text-white font-bold text-xs px-3 py-1 rounded-full uppercase" data-i18n="p2_badge">Grado Farmacéutico</span>
                     </div>
                     <div class="p-6">
@@ -161,8 +177,8 @@
 
                 <!-- Card 3 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-stone-200/80 hover:shadow-xl transition-shadow">
-                    <div class="h-48 bg-amber-100 relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&q=80&w=500" class="w-full h-full object-cover" alt="Jalea Real y Polen">
+                    <div class="h-48 bg-amber-900/10 flex items-center justify-center p-6 relative overflow-hidden">
+                        <i class="fa-solid fa-wheat-awn text-7xl text-amber-500"></i>
                         <span class="absolute top-4 right-4 bg-amber-600 text-white font-bold text-xs px-3 py-1 rounded-full uppercase" data-i18n="p3_badge">Superalimento</span>
                     </div>
                     <div class="p-6">
@@ -343,8 +359,8 @@
                 p3_badge: "Superalimento",
                 p3_title: "Pólen e Geléia Real Pura",
                 p3_desc: "Concentrado de vitalidad, aminoácidos e vitaminas. Colhido sob rigorosas boas práticas apícolas.",
-                btn_inquire: "Consultar Disponibilidad",
-                trace_title: "Rastreabilidade Total e Qualidade Uruguai",
+                btn_inquire: "Consultar Disponibilidade",
+                trace_title: "Rastreabilidade Total e Qualidade Uruguay",
                 trace_desc: "O Uruguai possui um sistema nacional de rastreabilidade apícola que permite rastrear cada tambor ou frasco até o apiário de origem. Garantimos produtos livres de contaminantes.",
                 trace_item_1: "Certificação Sanitária Oficial (MGAP)",
                 trace_item_2: "Georreferenciamento de Apiários",
