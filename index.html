@@ -64,7 +64,7 @@
                     <div class="w-10 h-10 rounded-xl gold-gradient flex items-center justify-center text-honey-deep font-bold text-xl shadow-lg shadow-amber-500/20 p-2">
                         <!-- Vector de Abeja SVG Directo -->
                         <svg class="w-full h-full fill-current text-honey-deep" viewBox="0 0 24 24">
-                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6C10.89,6 10,6.89 10,8C10,8.38 10.11,8.73 10.3,9.03C9.5,9.35 8.82,9.88 8.35,10.58C7.5,10.2 6.5,10.43 5.9,11.23C5.3,12.03 5.5,13.13 6.3,13.73C6.7,14 7.2,14.1 7.7,14C7.8,14.7 8.1,15.3 8.6,15.8C8.1,16.5 8,17.5 8.5,18.2C9,18.9 10,19.2 10.8,18.8C11.2,19.3 11.8,19.6 12.5,19.6C13.2,19.6 13.8,19.3 14.2,18.8C15,19.2 16,18.9 16.5,18.2C17,17.5 16.9,16.5 16.4,15.8C16.9,15.3 17.2,14.7 17.3,14C17.8,14.1 18.3,14 18.7,13.73C19.5,13.13 19.7,12.03 19.1,11.23C18.5,10.43 17.5,10.2 16.65,10.58C16.18,9.88 15.5,9.35 14.7,9.03C14.89,8.73 15,8.38 15,8C15,6.89 14.11,6 13,6H12Z"/>
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6C10.89,6 10,6.89, [...]
                         </svg>
                     </div>
                     <div>
@@ -108,12 +108,20 @@
                         Plataforma oficial que conecta la producción apícola nacional con el mundo. Mieles puras de flora nativa, propóleo concentrado, jalea real y cera natural trazable.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-                        <a href="#productos" class="gold-gradient text-honey-deep font-bold px-8 py-4 rounded-xl shadow-lg hover:brightness-110 transition-all text-center" data-i18n="hero_btn_catalog">
-                            Explorar Catálogo
-                        </a>
-                        <a href="#contacto" class="bg-stone-800/80 hover:bg-stone-800 border border-amber-900/50 text-amber-200 font-semibold px-8 py-4 rounded-xl transition-all text-center" data-i18n="hero_btn_producers">
-                            Red de Productores
-                        </a>
+                        <a href="#productos" class="gold-gradient text-honey-deep font-bold px-8 py-4 rounded-xl shadow-lg hover:brightness-110 transition-all text-center" data-i18n="hero_btn_catalog">Explorar Catálogo</a>
+                        <a href="#contacto" class="bg-stone-800/80 hover:bg-stone-800 border border-amber-900/50 text-amber-200 font-semibold px-8 py-4 rounded-xl transition-all text-center" data-i18n="hero_btn_producers">Red de Productores</a>
+                    </div>
+
+                    <div class="flex justify-center lg:justify-start pt-2">
+                        <div class="inline-flex items-center gap-3 rounded-2xl border border-amber-500/30 bg-white/5 px-4 py-3 shadow-lg shadow-amber-950/20 backdrop-blur-sm">
+                            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-amber-500/15 text-amber-300">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-[10px] uppercase tracking-[0.2em] text-amber-200/80" data-i18n="app_banner_label">Información de nuestra app</p>
+                                <a href="https://api-30.streamlit.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-semibold text-white hover:text-amber-300 transition-colors" data-i18n="app_banner_link">Ver la aplicación</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="relative">
@@ -156,7 +164,7 @@
                         <span class="absolute top-4 right-4 bg-amber-500 text-honey-deep font-bold text-xs px-3 py-1 rounded-full uppercase" data-i18n="p1_badge">100% Pura</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-stone-900 mb-2" data-i18n="p1_title">Mieles Multiflorales & Nativas</h3>
+                        <h3 class="text-xl font-bold text-stone-900 mb-2" data-i18n="p1_title">Mieles Multiflorales &amp; Nativas</h3>
                         <p class="text-stone-600 text-sm mb-4" data-i18n="p1_desc">Mieles de montes nativos, pradera y eucaliptus. Sabor único, ricas en enzimas y antioxidantes.</p>
                         <a href="#contacto" class="block text-center bg-stone-900 hover:bg-amber-600 text-white font-semibold py-2.5 rounded-lg text-sm transition-colors" data-i18n="btn_inquire">Consultar Disponibilidad</a>
                     </div>
@@ -182,7 +190,7 @@
                         <span class="absolute top-4 right-4 bg-amber-600 text-white font-bold text-xs px-3 py-1 rounded-full uppercase" data-i18n="p3_badge">Superalimento</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-stone-900 mb-2" data-i18n="p3_title">Polen & Jalea Real Pura</h3>
+                        <h3 class="text-xl font-bold text-stone-900 mb-2" data-i18n="p3_title">Polen &amp; Jalea Real Pura</h3>
                         <p class="text-stone-600 text-sm mb-4" data-i18n="p3_desc">Concentrado de vitalidad, aminoácidos y vitaminas. Recolectado con rigurosas buenas prácticas apícolas.</p>
                         <a href="#contacto" class="block text-center bg-stone-900 hover:bg-amber-600 text-white font-semibold py-2.5 rounded-lg text-sm transition-colors" data-i18n="btn_inquire">Consultar Disponibilidad</a>
                     </div>
@@ -198,7 +206,7 @@
                 <div>
                     <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6 text-amber-100" data-i18n="trace_title">Trazabilidad Total y Calidad Uruguay</h2>
                     <p class="text-stone-300 mb-6 leading-relaxed" data-i18n="trace_desc">
-                        Uruguay cuenta con un sistema nacional de trazabilidad apícola que permite rastrear cada tambor o envase hasta el colmenar de origen. Garantizamos productos libres de contaminantes y producidos en entornos naturales protegidos.
+                        Uruguay cuenta con un sistema nacional de trazabilidad apícola que permite rastrear cada tambor o envase hasta el colmenar de origen. Garantizamos productos libres de contaminantes y con procesos verificados por autoridades.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-center gap-3">
@@ -229,7 +237,7 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-stone-200">
                 <div class="text-center mb-8">
-                    <h2 class="text-3xl font-serif font-bold text-stone-900" data-i18n="contact_title">Contacto & Exportaciones</h2>
+                    <h2 class="text-3xl font-serif font-bold text-stone-900" data-i18n="contact_title">Contacto &amp; Exportaciones</h2>
                     <p class="text-stone-600 mt-2" data-i18n="contact_subtitle">Comuníquese directamente con la Red Apícola del Uruguay para compras mayoristas o consultas generales.</p>
                 </div>
                 <form class="space-y-6" onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente');">
@@ -247,9 +255,7 @@
                         <label class="block text-sm font-semibold text-stone-700 mb-2" data-i18n="form_msg">Mensaje / Requerimiento</label>
                         <textarea rows="4" required class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:ring-2 focus:ring-amber-500 focus:outline-none"></textarea>
                     </div>
-                    <button type="submit" class="w-full gold-gradient text-honey-deep font-bold py-4 rounded-xl shadow-lg hover:brightness-105 transition-all text-center" data-i18n="form_btn">
-                        Enviar Consulta
-                    </button>
+                    <button type="submit" class="w-full gold-gradient text-honey-deep font-bold py-4 rounded-xl shadow-lg hover:brightness-105 transition-all text-center" data-i18n="form_btn">Enviar Consulta</button>
                 </form>
             </div>
         </div>
@@ -274,6 +280,8 @@
                 hero_desc: "Plataforma oficial que conecta la producción apícola nacional con el mundo. Mieles puras de flora nativa, propóleo concentrado, jalea real y cera natural trazable.",
                 hero_btn_catalog: "Explorar Catálogo",
                 hero_btn_producers: "Red de Productores",
+                app_banner_label: "Información de nuestra app",
+                app_banner_link: "Ver la aplicación",
                 prod_title: "Tesoros de la Colmena",
                 prod_subtitle: "Garantía de origen, pureza natural y trazabilidad desde nuestros apiarios hasta su mesa.",
                 p1_badge: "100% Pura",
@@ -287,7 +295,7 @@
                 p3_desc: "Concentrado de vitalidad, aminoácidos y vitaminas. Recolectado con rigurosas buenas prácticas apícolas.",
                 btn_inquire: "Consultar Disponibilidad",
                 trace_title: "Trazabilidad Total y Calidad Uruguay",
-                trace_desc: "Uruguay cuenta con un sistema nacional de trazabilidad apícola que permite rastrear cada tambor o envase hasta el colmenar de origen. Garantizamos productos libres de contaminantes y producidos en entornos naturales protegidos.",
+                trace_desc: "Uruguay cuenta con un sistema nacional de trazabilidad apícola que permite rastrear cada tambor o envase hasta el colmenar de origen. Garantizamos productos libres de contaminantes y con procesos verificados por autoridades.",
                 trace_item_1: "Certificación Sanitaria Oficial (MGAP)",
                 trace_item_2: "Georreferenciación de Apiarios",
                 trace_item_3: "Libre de transgénicos e impurezas",
@@ -311,6 +319,8 @@
                 hero_desc: "Official platform connecting national beekeeping production with the world. Pure native flora honeys, concentrated propolis, royal jelly, and traceable natural wax.",
                 hero_btn_catalog: "Explore Catalog",
                 hero_btn_producers: "Producers Network",
+                app_banner_label: "Information about our app",
+                app_banner_link: "Open the application",
                 prod_title: "Hive Treasures",
                 prod_subtitle: "Guarantee of origin, natural purity, and traceability from our apiaries to your table.",
                 p1_badge: "100% Pure",
@@ -324,7 +334,7 @@
                 p3_desc: "Concentrate of vitality, amino acids, and vitamins. Harvested under strict good beekeeping practices.",
                 btn_inquire: "Check Availability",
                 trace_title: "Total Traceability & Uruguayan Quality",
-                trace_desc: "Uruguay features a national beekeeping traceability system that enables tracing every drum or jar back to its originating apiary. We guarantee products free from contaminants.",
+                trace_desc: "Uruguay features a national beekeeping traceability system that enables tracing every drum or jar back to its originating apiary. We guarantee products free from contaminants and with verified processes.",
                 trace_item_1: "Official Sanitary Certification (MGAP)",
                 trace_item_2: "Georeferenced Apiaries",
                 trace_item_3: "Free from GMOs and impurities",
@@ -348,6 +358,8 @@
                 hero_desc: "Plataforma oficial que conecta a produção apícola nacional com o mundo. Mel puro de flora nativa, própolis concentrada, geléia real e cera natural rastreável.",
                 hero_btn_catalog: "Explorar Catálogo",
                 hero_btn_producers: "Rede de Produtores",
+                app_banner_label: "Informações sobre o nosso aplicativo",
+                app_banner_link: "Abrir a aplicação",
                 prod_title: "Tesouros da Colméia",
                 prod_subtitle: "Garantia de origem, pureza natural e rastreabilidade dos nossos apiários até a sua mesa.",
                 p1_badge: "100% Puro",
@@ -361,7 +373,7 @@
                 p3_desc: "Concentrado de vitalidad, aminoácidos e vitaminas. Colhido sob rigorosas boas práticas apícolas.",
                 btn_inquire: "Consultar Disponibilidade",
                 trace_title: "Rastreabilidade Total e Qualidade Uruguay",
-                trace_desc: "O Uruguai possui um sistema nacional de rastreabilidade apícola que permite rastrear cada tambor ou frasco até o apiário de origem. Garantimos produtos livres de contaminantes.",
+                trace_desc: "O Uruguai possui um sistema nacional de rastreabilidade apícola que permite rastrear cada tambor ou frasco até o apiário de origem. Garantimos produtos livres de contaminantes e com processos verificados.",
                 trace_item_1: "Certificação Sanitária Oficial (MGAP)",
                 trace_item_2: "Georreferenciamento de Apiários",
                 trace_item_3: "Livre de transgénicos e impurezas",
@@ -384,7 +396,6 @@
                 }
             });
 
-            // Update Active Buttons styling
             ['es', 'en', 'pt'].forEach(l => {
                 const btn = document.getElementById(`btn-${l}`);
                 if (l === lang) {
